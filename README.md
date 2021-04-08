@@ -25,12 +25,11 @@ pod 'JIVerificationCodeWaitingView'
 ## 具体样式展示示意图如下：
 ***
 * 默认样式
-
-![JIVerificationCodeWaitingView功能示意图default](https://github.com/JerryIce/JIVerificationCodeWaitingView/blob/master/other/DemoDiagram_type_default.gif)
+![JIVerificationCodeWaitingView功能示意图default](https://github.com/JerryIce/JIVerificationCodeWaitingView/blob/main/Example/JIVerificationCodeWaitingView/DemoDiagram_type_default.gif)
 
 * 自定义样式
 
-![JIVerificationCodeWaitingView功能示意图custom](https://github.com/JerryIce/JIVerificationCodeWaitingView/blob/master/other/DemoDiagram_type_custom.gif)
+![JIVerificationCodeWaitingView功能示意图custom](https://github.com/JerryIce/JIVerificationCodeWaitingView/blob/main/Example/JIVerificationCodeWaitingView/DemoDiagram_type_custom.gif)
 
 ## 介绍说明：
 ***
