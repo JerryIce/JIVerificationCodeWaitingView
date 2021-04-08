@@ -1,0 +1,6 @@
+framework module Pods_JIVerificationCodeWaitingView_Tests {
+  umbrella header "Pods-JIVerificationCodeWaitingView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

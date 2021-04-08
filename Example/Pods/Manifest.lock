@@ -1,0 +1,16 @@
+PODS:
+  - JIVerificationCodeWaitingView (0.1.0)
+
+DEPENDENCIES:
+  - JIVerificationCodeWaitingView (from `../`)
+
+EXTERNAL SOURCES:
+  JIVerificationCodeWaitingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JIVerificationCodeWaitingView: a5f2e7f4afe095db8a748e8c7acfe01ddb396e33
+
+PODFILE CHECKSUM: f27d559c4589c237d62a7d34be755a5f07734640
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module JIVerificationCodeWaitingView {
+  umbrella header "JIVerificationCodeWaitingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

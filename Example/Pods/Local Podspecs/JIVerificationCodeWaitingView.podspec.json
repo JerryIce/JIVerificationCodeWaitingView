@@ -1,0 +1,22 @@
+{
+  "name": "JIVerificationCodeWaitingView",
+  "version": "0.1.0",
+  "summary": "一个实现短信获取验证码等待效果的按钮视图。",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JerryIce/JIVerificationCodeWaitingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jerryelectricity@me.com": "YangZongwei@csvw.com"
+  },
+  "source": {
+    "git": "https://github.com/JerryIce/JIVerificationCodeWaitingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JIVerificationCodeWaitingView/Classes/**/*"
+}
