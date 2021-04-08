@@ -20,6 +20,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6747B0DC261EA39B00DD9010 /* DemoDiagram_type_custom.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6747B0DA261EA39B00DD9010 /* DemoDiagram_type_custom.gif */; };
+		6747B0DD261EA39B00DD9010 /* DemoDiagram_type_default.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6747B0DB261EA39B00DD9010 /* DemoDiagram_type_default.gif */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BA2EFB022E252C4D7AD1124D /* Pods_JIVerificationCodeWaitingView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266789C89219B3AACA1CC6A2 /* Pods_JIVerificationCodeWaitingView_Tests.framework */; };
@@ -59,13 +61,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6B3AD0115AD583025523C87D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6747B0DA261EA39B00DD9010 /* DemoDiagram_type_custom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DemoDiagram_type_custom.gif; sourceTree = "<group>"; };
+		6747B0DB261EA39B00DD9010 /* DemoDiagram_type_default.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DemoDiagram_type_default.gif; sourceTree = "<group>"; };
+		6B3AD0115AD583025523C87D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FBBADF527CD7431B8CB37C9 /* Pods-JIVerificationCodeWaitingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIVerificationCodeWaitingView_Example.release.xcconfig"; path = "Target Support Files/Pods-JIVerificationCodeWaitingView_Example/Pods-JIVerificationCodeWaitingView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B2CF03A51DDFF9DCBCD52044 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B2CF03A51DDFF9DCBCD52044 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BF36A1202824F61EEDDE08DF /* Pods-JIVerificationCodeWaitingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIVerificationCodeWaitingView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JIVerificationCodeWaitingView_Tests/Pods-JIVerificationCodeWaitingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C39CD2543F047CD8A40D1977 /* JIVerificationCodeWaitingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JIVerificationCodeWaitingView.podspec; path = ../JIVerificationCodeWaitingView.podspec; sourceTree = "<group>"; };
+		C39CD2543F047CD8A40D1977 /* JIVerificationCodeWaitingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JIVerificationCodeWaitingView.podspec; path = ../JIVerificationCodeWaitingView.podspec; sourceTree = "<group>"; };
 		C5BC8A8899F3C403C9316D3E /* Pods_JIVerificationCodeWaitingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JIVerificationCodeWaitingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +141,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YZWViewController.h */,
 				6003F5A6195388D20070C39A /* YZWViewController.m */,
+				6747B0DA261EA39B00DD9010 /* DemoDiagram_type_custom.gif */,
+				6747B0DB261EA39B00DD9010 /* DemoDiagram_type_default.gif */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +199,6 @@
 				BF36A1202824F61EEDDE08DF /* Pods-JIVerificationCodeWaitingView_Tests.debug.xcconfig */,
 				28888B1C69D47CE0748A3FDE /* Pods-JIVerificationCodeWaitingView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,7 +286,9 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6747B0DC261EA39B00DD9010 /* DemoDiagram_type_custom.gif in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				6747B0DD261EA39B00DD9010 /* DemoDiagram_type_default.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
